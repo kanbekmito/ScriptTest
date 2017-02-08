@@ -8,7 +8,7 @@ public class ScriptTest : MonoBehaviour {
     void Start()
     {
         // 配列を初期化する
-        int[] points = { 20, 55, 121, 5, 92, 66, 36, 49 };
+        int[] points = { 20, 55, 121, 5, 92 };
 
         for (int i = 0; i < points.Length; i++)
         {
@@ -16,7 +16,7 @@ public class ScriptTest : MonoBehaviour {
                 Debug.Log(points[i]);
         }
 
-        for (int i = 7; i >= 0; i--)
+        for (int i = 4; i >= 0; i--)
         {
             // 配列の要素を表示する
             Debug.Log(points[i]);
